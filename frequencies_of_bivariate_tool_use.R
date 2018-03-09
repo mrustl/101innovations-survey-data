@@ -1,9 +1,29 @@
+###############################################################################
+### Download data from Kaggle
+
+#url_zipfile <- file.path("https://www.kaggle.com/bmkramer/", 
+# "101-innovations-research-tools-survey/downloads", 
+# "101-innovations-research-tools-survey.zip/2")
+
+#download.file(url = url_zipfile,
+#              destfile = "data.zip")
+#
+# unzip(zipfile = "data.zip",
+#       exdir = "datafiles")
+
 # clustering van tools vraag bianca
 # 
 # mvp:
 # alleen presets 
 # search en acces alleen
 # 
+
+library(readr)
+library(janitor)
+
+survey_raw_variable_list <- readr::read_csv("datafiles/survey_raw_variable_list.csv") %>% 
+                            janitor::clean_names()
+
 survey_cleaned <- readr::read_csv("datafiles/survey_cleaned.csv") # I love the 
 # readr package, but you could also use read.csv("datafiles/survey_cleaned.csv",stringsAsFactors = FALSE)
 
