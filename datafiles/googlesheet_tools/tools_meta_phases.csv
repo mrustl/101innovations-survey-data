@@ -1,0 +1,32 @@
+research_phase_number,research_phases_30,research_phases_7
+0,project management,preparation
+1,crowdsource/define research priorities/ideas/collaborations,preparation
+2,fund / get contract,preparation
+3,search (lit/data/patents/code),discovery
+4,get access,discovery
+5,get alerts / get (reading) recommendations,discovery
+6,reference management,discovery
+7,read / view,discovery
+8,annotate/tag (during/after reading),discovery
+9,experiment & collect/mine/extract data,analysis
+10,share notebooks / protocols / workflows,analysis
+11,analyze,analysis
+12,visualize,writing
+13,write (+ code),writing
+14,cite,writing
+15,translate,writing
+16,archive/share code,publication
+17,archive/share data / video,publication
+18,archive/share publications,publication
+19,archive/share posters,publication
+20,archive/share presentations,publication
+21,present research findings,publication
+22,peer review and comment/recommend (pre-pub),publication
+23,select journal to submit to,publication
+24,publish,publication
+25,outreach/valorization,outreach
+26,researcher profiling (& social network),outreach
+27,comment,assessment
+28,peer review (post-pub),assessment
+29,"measure impact (of output, e.g. article)",assessment
+30,assessment (of researcher/research group),assessment
